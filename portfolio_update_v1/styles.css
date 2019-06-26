@@ -168,10 +168,14 @@ a.social:hover {
 }
 
 /*resume CSS*/
+pre{
+  font-family: Arial;
+}
 
 .resume {
   margin-top: 100px;
-  margin-left: 120px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px 40px 40px;
   max-width: 1000px;
   text-align: left;
@@ -202,11 +206,6 @@ a.social:hover {
 .right{
   text-align: right;
 }
-
-.up{
-  vertical-align: middle;
-}
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
